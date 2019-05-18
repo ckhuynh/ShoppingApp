@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/cobonla"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LienHeActivity">
+    <TextView
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:textColor="#FCF7F7"
+        android:textSize="40sp"
+        android:text="Liên hệ với chúng tôi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/spinner"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:background="@drawable/name"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:gravity="center"
+            android:background="#FCF7E7"
+            android:textColor="#0E0200"
+            android:textSize="20sp"
+            android:text="Name: Huynh Minh Hieu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/spinner"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:background="@drawable/mainemail"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <TextView
+            android:gravity="center"
+            android:background="#FCF7E7"
+            android:textColor="#0E0200"
+            android:textSize="15sp"
+            android:text="Email: minhhieu.huynh31285@gmail.com"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/spinner"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:background="@drawable/phonenumber"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:gravity="center"
+            android:background="#FCF7E7"
+            android:textColor="#0E0200"
+            android:textSize="15sp"
+            android:text="Phone number: 0393732315"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+</LinearLayout>
